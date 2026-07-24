@@ -1,8 +1,28 @@
 aid: bluewhite-fka-blue-white-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluewhite-fka-blue-white-robotics.png
 name: Bluewhite (fka Blue White Robotics)
-description: Bluewhite (fka Blue White Robotics) is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Bluewhite (formerly Blue White Robotics) is an autonomy company that builds an
+  AI-powered "Field Intelligence" physical-AI engine for operating vehicles in
+  demanding, unstructured, real-world environments. Founded in Israel, the company
+  first commercialized autonomous agriculture — retrofitting existing tractor fleets
+  with an aftermarket autonomy kit for driverless spraying, mowing, and other field
+  operations — and has since extended the same edge-processing autonomy stack to
+  defense and security missions through OEM integrations and complete unmanned ground
+  vehicles (UGVs). Bluewhite is a portfolio company of Insight Partners. The company
+  exposes no public developer API, developer portal, or technical documentation; this
+  API Evangelist profile tracks its identity and public web surface.
 url: https://raw.githubusercontent.com/api-evangelist/bluewhite-fka-blue-white-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Robotics
+- Autonomy
+- Artificial Intelligence
+- Agriculture
+- AgTech
+- Autonomous Vehicles
+- Defense
+- Unmanned Ground Vehicles
+- Physical AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +51,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bluewhite-fka-blue-white-robotics-domain-security.yml
 - type: Website
-  url: https://bluewhiterobotics.com/
+  url: https://www.bluewhite.ai/
+- type: Blog
+  url: https://www.bluewhite.ai/blog
+- type: Support
+  url: https://www.bluewhite.ai/contact
+- type: TermsOfService
+  url: https://www.bluewhite.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.bluewhite.ai/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
